@@ -1,0 +1,11 @@
+mkdir CE_Capacitor.3dshapes
+mkdir CE_Connector.3dshapes
+mkdir CE_Crystal.3dshapes
+mkdir CE_Diode.3dshapes
+mkdir CE_Filter.3dshapes
+mkdir CE_IC.3dshapes
+mkdir CE_Inductor.3dshapes
+mkdir CE_Power.3dshapes
+mkdir CE_Regulator.3dshapes
+mkdir CE_Resistor.3dshapes
+mkdir CE_Switch.3dshapes

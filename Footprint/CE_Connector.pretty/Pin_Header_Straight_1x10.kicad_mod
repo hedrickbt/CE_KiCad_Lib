@@ -28,7 +28,7 @@
   (pad 8 thru_hole oval (at 0 17.78) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask))
   (pad 9 thru_hole oval (at 0 20.32) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask))
   (pad 10 thru_hole oval (at 0 22.86) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask))
-  (model Pin_Headers.3dshapes/Pin_Header_Straight_1x10.wrl
+  (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Connector.3dshapes/Pin_Header_Straight_1x10.wrl
     (at (xyz 0 -0.45 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

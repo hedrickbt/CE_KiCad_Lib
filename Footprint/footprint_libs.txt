@@ -1,0 +1,13 @@
+CE_Capacitor.pretty
+CE_Connector.pretty
+CE_Crystal.pretty
+CE_Diode.pretty
+CE_Filter.pretty
+CE_IC.pretty
+CE_Inductor.pretty
+CE_Logo.pretty
+CE_MountingHole.pretty
+CE_Power.pretty
+CE_Regulator.pretty
+CE_Resistor.pretty
+CE_Switch.pretty
