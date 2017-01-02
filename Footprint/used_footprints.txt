@@ -1,0 +1,22 @@
+C:\data\SpiderOak\projects\ContextualElectronics\CentralCommand\hardware\pcb\CentralCommand.net
+
+
+
+Pin_Headers -> CE_Connector
+Mounting_Holes -> CE_MountingHole
+Diodes_SMD -> CE_Diode
+Capacitors_SMD -> CE_Capacitor
+Inductors_NEOSID -> CE_Inductor
+LEDs -> CE_Diode
+Resistors_SMD -> CE_Resistor
+Housings_QFP -> CE_IC
+Housings_DFN_QFN -> CE_IC
+
+
+
+Multiple destinations
+pcb:Crystal_HC49_US)
+pcb:GroveConnectorStraight_B4B-PH-K-S)
+pcb:MICRO_B_CONN_10118193-0001LF)
+pcb:Pushbutton_B3F-1020)
+pcb:SOT-23)
