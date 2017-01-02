@@ -1,6 +1,34 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# D_Schottky
+#
+DEF D_Schottky D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Schottky" 0 -100 50 H V C CNN
+F2 "CE_Diode:SOD-123" 350 650 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+F4 "DIODE SCHOTTKY 20V 500MA SOD123" 850 750 60 H I C CNN "Description"
+F5 "http://www.digikey.com/product-search/en?keywords=MBR0520LT1GOSCT-ND" 1800 550 60 H I C CNN "SupplierLink"
+F6 "http://www.onsemi.com/pub_link/Collateral/MBR0520LT1-D.PDF" 1500 450 60 H I C CNN "DatasheetLink"
+F7 "MBR0520LT1G" 300 850 60 H I C CNN "MPN"
+$FPLIST
+ Diode_*
+ D-*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # LED-RESCUE-CentralCommand
 #
 DEF LED-RESCUE-CentralCommand D 0 40 Y N 1 F N
@@ -24,30 +52,6 @@ P 3 0 1 0 -65 -40 -110 -80 -105 -55 N
 P 3 0 1 0 50 50 -50 0 50 -50 F
 X K 1 -200 0 150 R 40 40 1 1 P
 X A 2 200 0 150 L 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# D_Schottky
-#
-DEF D_Schottky D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- Diode_*
- D-*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
-P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

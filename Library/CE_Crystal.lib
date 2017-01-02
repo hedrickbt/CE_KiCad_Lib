@@ -6,8 +6,12 @@ EESchema-LIBRARY Version 2.3
 DEF Crystal Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
 F1 "Crystal" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
+F2 "CE_Crystal:Crystal_HC49_US" 550 800 50 H I C CNN
 F3 "" 0 0 50 H V C CNN
+F4 "9C-8.000MEEJ-T" 400 1000 60 H I C CNN "MPN"
+F5 "CRYSTAL 8.0000MHZ 18PF SMD" 700 900 60 H I C CNN "Description"
+F6 "http://www.digikey.com/product-search/en?keywords=887-1263-1-ND" 1650 700 60 H I C CNN "SupplierLink"
+F7 "http://www.txccrystal.com/images/pdf/9c-accuracy.pdf" 1300 600 60 H I C CNN "DatasheetLink"
 $FPLIST
  Crystal*
 $ENDFPLIST

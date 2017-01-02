@@ -1,13 +1,40 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# FILTER
+#
+DEF FILTER FB 0 40 Y N 1 F N
+F0 "FB" 0 150 50 H V C CNN
+F1 "FILTER" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 150 50 H V C CNN
+F4 "BLM41PG471SN1L" 100 250 60 H I C CNN "MPN"
+F5 "FERRITE BEAD 470 OHM 1806 1LN" 400 550 60 H I C CNN "Description"
+F6 "http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0110S0100BLM41P.pdf" 300 450 60 H I C CNN "DatasheetLink"
+F7 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/BLM41PG471SN1L/490-1060-1-ND/584506" 200 350 60 H I C CNN "SupplierLink"
+DRAW
+A -150 0 50 1 1799 0 1 0 N -100 0 -200 0
+A -50 0 50 1 1799 0 1 0 N 0 0 -100 0
+A 0 0 0 0 0 0 1 0 N 0 0 0 0
+A 50 0 50 1 1799 0 1 0 N 100 0 0 0
+A 150 0 50 1 1799 0 1 0 N 200 0 100 0
+S -225 75 225 -50 0 1 0 N
+X 1 1 -350 0 150 R 40 40 1 1 P
+X 2 2 350 0 150 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 # INDUCTOR
 #
 DEF INDUCTOR L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
 F1 "INDUCTOR" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
+F2 "CE_Inductor:Neosid_Inductor_SM1206" 750 750 50 H I C CNN
 F3 "" 0 0 50 H V C CNN
+F4 "AIML-1206-100K-T" 550 950 60 H I C CNN "MPN"
+F5 "FIXED IND 10UH 25MA 800 MOHM SMD" 950 850 60 H I C CNN "Description"
+F6 "http://www.abracon.com/Magnetics/chips/AIML-1206.pdf" 1400 550 60 H I C CNN "DatasheetLink"
+F7 "https://www.digikey.com/product-search/en?keywords=535-11657-1-ND" 1800 650 60 H I C CNN "SupplierLink"
 DRAW
 A 0 -150 50 -889 889 0 1 0 N 1 -199 1 -100
 A 0 -49 51 -889 889 0 1 0 N 1 -99 1 2

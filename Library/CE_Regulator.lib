@@ -6,8 +6,12 @@ EESchema-LIBRARY Version 2.3
 DEF MCP1700T-3302E/TT U 0 40 Y Y 1 F N
 F0 "U" 0 200 60 H V C CNN
 F1 "MCP1700T-3302E/TT" 0 50 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+F2 "CE_Regulator:SOT-23" 500 1050 60 H I C CNN
+F3 "" 0 200 60 H V C CNN
+F4 "http://www.digikey.com/product-search/en?keywords=MCP1700T3302ETTCT-ND" 1850 950 60 H I C CNN "SupplierLink"
+F5 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" 1850 850 60 H I C CNN "DatasheetLink"
+F6 "IC REG LDO 3.3V 0.25A SOT23-3" 800 1150 60 H I C CNN "Description"
+F7 "MCP1700T-3302E/TT" 500 1250 60 H I C CNN "MPN"
 DRAW
 S -500 300 500 -250 0 1 0 f
 X GND 1 0 -450 200 U 50 50 1 1 I
