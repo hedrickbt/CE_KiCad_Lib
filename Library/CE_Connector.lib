@@ -1,14 +1,63 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# 10118193-0001LF
+#
+DEF 10118193-0001LF CON 0 50 Y Y 1 F N
+F0 "CON" -300 350 50 H V C CNN
+F1 "10118193-0001LF" 50 -450 50 H V C CNN
+F2 "CE_Connector:MICRO_B_CONN_10118193-0001LF" 950 1200 50 H I C CNN
+F3 "" 0 -100 50 H V C CNN
+F4 "10118193-0001LF" 450 1350 60 H I C CNN "MPN"
+F5 "CONN USB MICRO B RECPT SMT R/A" 850 1100 60 H I C CNN "Description"
+F6 "http://portal.fciconnect.com/Comergent//fci/drawing/10118193.pdf" 1600 900 60 H I C CNN "DatasheetLink"
+F7 "https://www.digikey.com/product-detail/en/amphenol-fci/10118193-0001LF/609-4616-1-ND/2785380" 2500 1000 60 H I C CNN "SupplierLink"
+F8 "USB MICRO B" 0 -350 60 H V C CNN "Specification"
+$FPLIST
+ USB-Mini-B-Jack
+$ENDFPLIST
+DRAW
+S -400 300 400 -300 0 1 0 f
+X VBUS 1 -500 200 100 R 50 50 1 1 W
+X D- 2 -500 100 100 R 50 50 1 1 B
+X D+ 3 -500 0 100 R 50 50 1 1 B
+X ID 4 -500 -100 100 R 50 50 1 1 B
+X GND 5 -500 -200 100 R 50 50 1 1 W
+X SHELL1 6 500 200 100 L 50 50 1 1 P
+X SHELL2 7 500 100 100 L 50 50 1 1 P
+X SHELL3 8 500 -100 100 L 50 50 1 1 P
+X SHELL4 9 500 -200 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3MM_HOLE
+#
+DEF 3MM_HOLE P 0 40 Y N 1 F N
+F0 "P" 0 100 50 H V C CNN
+F1 "3MM_HOLE" 100 0 50 V V C CNN
+F2 "CE_MountingHole:MountingHole_3mm" 700 600 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+F4 "3MM Mounting Hole" 450 700 60 H I C CNN "Description"
+$FPLIST
+ Pin_Header_Straight_1X01
+ Pin_Header_Angled_1X01
+ Socket_Strip_Straight_1X01
+ Socket_Strip_Angled_1X01
+$ENDFPLIST
+DRAW
+S -50 5 10 -5 0 1 0 N
+S -50 50 50 -50 0 1 0 N
+X P1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # CONN_01X01
 #
 DEF CONN_01X01 P 0 40 Y N 1 F N
 F0 "P" 0 100 50 H V C CNN
 F1 "CONN_01X01" 100 0 50 V V C CNN
-F2 "CE_MountingHole:MountingHole_3mm" 700 600 50 H I C CNN
-F3 "" 0 0 50 H V C CNN
-F4 "3MM Mounting Hole" 450 700 60 H I C CNN "Description"
+F2 "" 700 600 50 H I C CNN
+F3 "" 0 100 50 H V C CNN
 $FPLIST
  Pin_Header_Straight_1X01
  Pin_Header_Angled_1X01

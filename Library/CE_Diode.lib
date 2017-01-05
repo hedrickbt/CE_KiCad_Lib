@@ -1,6 +1,99 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# 150080BS75000
+#
+DEF 150080BS75000 D 0 40 Y N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "150080BS75000" 50 -250 50 H V C CNN
+F2 "CE_Diode:LED_0805" 400 1250 50 H I C CNN
+F3 "" 0 100 50 H V C CNN
+F4 "150080BS75000" 400 1500 60 H I C CNN "MPN"
+F5 "Blue" 0 -150 60 H V C CNN "Specification"
+F6 "http://katalog.we-online.de/led/datasheet/150080BS75000.pdf" 1550 1000 60 H I C CNN "DatasheetLink"
+F7 "http://www.digikey.com/product-search/en?keywords=732-4982-1-ND" 1700 1150 60 H I C CNN "SupplierLink"
+F8 "LED BLUE CLEAR 0805 SMD" 700 1400 60 H I C CNN "Description"
+$FPLIST
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -50 50 -50 -50 N
+P 3 0 1 0 -80 -25 -125 -65 -120 -40 N
+P 3 0 1 0 -65 -40 -110 -80 -105 -55 N
+P 3 0 1 0 50 50 -50 0 50 -50 F
+X K 1 -200 0 150 R 40 40 1 1 P
+X A 2 200 0 150 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 150080GS75000
+#
+DEF 150080GS75000 D 0 40 Y N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "150080GS75000" 0 -250 50 H V C CNN
+F2 "CE_Diode:LED_0805" 400 450 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+F4 "150080GS75000" 400 650 60 H I C CNN "MPN"
+F5 "Green" 0 -150 60 H V C CNN "Specification"
+F6 "http://katalog.we-online.de/led/datasheet/150080GS75000.pdf" 1500 250 60 H I C CNN "DatasheetLink"
+F7 "https://www.digikey.com/product-search/en?keywords=732-4983-1-ND" 1750 350 60 H I C CNN "SupplierLink"
+F8 "LED GREEN CLEAR 0805 SMD" 700 550 60 H I C CNN "Description"
+$FPLIST
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -50 50 -50 -50 N
+P 3 0 1 0 -80 -25 -125 -65 -120 -40 N
+P 3 0 1 0 -65 -40 -110 -80 -105 -55 N
+P 3 0 1 0 50 50 -50 0 50 -50 F
+X K 1 -200 0 150 R 40 40 1 1 P
+X A 2 200 0 150 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 150080YS75000
+#
+DEF 150080YS75000 D 0 40 Y N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "150080YS75000" 50 -200 50 H V C CNN
+F2 "CE_Diode:LED_0805" 400 800 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+F4 "150080YS75000" 400 1000 60 H I C CNN "MPN"
+F5 "http://katalog.we-online.de/led/datasheet/150080YS75000.pdf" 1500 600 60 H I C CNN "DatasheetLink"
+F6 "http://www.digikey.com/product-search/en?keywords=732-4987-1-ND" 1700 700 60 H I C CNN "SupplierLink"
+F7 "LED YELLOW CLEAR 0805 SMD" 700 900 60 H I C CNN "Description"
+F8 "Yellow" 100 -100 60 H V C CNN "Specification"
+$FPLIST
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -50 50 -50 -50 N
+P 3 0 1 0 -80 -25 -125 -65 -120 -40 N
+P 3 0 1 0 -65 -40 -110 -80 -105 -55 N
+P 3 0 1 0 50 50 -50 0 50 -50 F
+X K 1 -200 0 150 R 40 40 1 1 P
+X A 2 200 0 150 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 # D_Schottky
 #
 DEF D_Schottky D 0 40 N N 1 F N
@@ -52,6 +145,35 @@ P 3 0 1 0 -65 -40 -110 -80 -105 -55 N
 P 3 0 1 0 50 50 -50 0 50 -50 F
 X K 1 -200 0 150 R 40 40 1 1 P
 X A 2 200 0 150 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MBR0520LT1G
+#
+DEF MBR0520LT1G D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "MBR0520LT1G" 50 -200 50 H V C CNN
+F2 "CE_Diode:SOD-123" 350 650 50 H I C CNN
+F3 "" 0 100 50 H V C CNN
+F4 "20V/500MA" 50 -100 60 H V C CNN "Specification"
+F5 "DIODE SCHOTTKY 20V 500MA SOD123" 850 750 60 H I C CNN "Description"
+F6 "http://www.digikey.com/product-search/en?keywords=MBR0520LT1GOSCT-ND" 1800 550 60 H I C CNN "SupplierLink"
+F7 "http://www.onsemi.com/pub_link/Collateral/MBR0520LT1-D.PDF" 1500 450 60 H I C CNN "DatasheetLink"
+F8 "MBR0520LT1G" 300 850 60 H I C CNN "MPN"
+$FPLIST
+ Diode_*
+ D-*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
